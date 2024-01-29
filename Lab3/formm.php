@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Form Validation Example</title>
+    <title>MENNA'S LAB3 FORM</title>
     <style>
         .error { color: red; }
     </style>
