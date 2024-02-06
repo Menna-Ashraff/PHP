@@ -46,7 +46,7 @@ if (isset($_POST['submit']))
 <body>
         <div class="container mt-5">
                 <h1 class="text-center">login</h1>
-                <span style="color: red;">please fill in your credentials to login</span>
+                <span style="color: red; margin-left: 250px;">Please fill in your credentials to login</span>
                 
         </div>
         <div class="container mt-5 w-50">
@@ -61,7 +61,7 @@ if (isset($_POST['submit']))
                         </div>
                         <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                         <br>
-                        <span>Don't have an account? <a href="signup.php" style="color: blue;" name="signup">Sign up here.</a></span>
+                        <p style="margin-left: 250px;">Don't have an account? <a href="signup.php" style="color: blue;" name="signup">Sign up here.</a></p>
                 </form>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

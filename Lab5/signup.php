@@ -43,7 +43,7 @@ if (isset($_POST['submit']))
 <body>
 <div class="container mt-5">
         <h1 class="text-center">Sign Up</h1>
-        <span style="color: red;">Please fill this form to sign up</span><?php echo $err; ?>
+        <span style="color: red; margin-left: 250px;">Please fill this form to sign up</span><?php echo $err; ?>
     </div>
         <div class="container mt-5 w-50">
           <form action="<?php $_PHP_SELF ?>" method="post">
@@ -57,9 +57,9 @@ if (isset($_POST['submit']))
             </div>
                         
                 <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-                <button type="submit" class="btn btn-light border border-black" name="submit">Rest</button><br>
+                <button type="submit" class="btn btn-light border border-black" name="submit">Reset</button><br>
             </form>
-         <span>Already have an account? <a href="login.php" style="color: blue;">Login here.</a></span>
+         <p style="margin-left: 250px;">Already have an account? <a href="login.php" style="color: blue;">Login here.</a></p>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
